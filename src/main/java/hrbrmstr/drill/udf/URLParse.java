@@ -16,7 +16,7 @@ import javax.inject.Inject;
 @FunctionTemplate(
   names = { "url_parse" },
   scope = FunctionTemplate.FunctionScope.SIMPLE,
-  nulls = FunctionTemplate.NullHandling.NULL_IF_NULL
+  nulls = FunctionTemplate.NullHandling.INTERNAL
 )
 public class URLParse implements DrillSimpleFunc {
   
